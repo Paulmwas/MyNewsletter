@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}<title>MyNews | Send</title>{% endblock title %}
+{% block content %}
+<form method="post" class="send-form">
+  {% csrf_token %}
+    <label for="subject" class="send-form-label">Subject:</label>
+    <input type="text" id="subject" name="subject" class="send-form-input" required><br><br>
+    <label for="message" class="send-form-label">Message:</label>
+    <textarea id="message" name="message" class="send-form-textarea message-box" required></textarea><br><br>
+    <button type="submit" class="send-form-button">Send</button>
+</form>
+{% endblock content %}

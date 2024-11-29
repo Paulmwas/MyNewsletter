@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header {
+    background-color: #08011f;
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo {
+    color: #fff;
+    font-size: 2em;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+header ul {
+    display: inline;
+    list-style-type: none;
+    margin: 0 15px;
+    padding: 0;
+}
+
+header ul a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+header ul a:hover {
+    text-decoration: underline;
+}
+form {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 600px; /* Increased the max-width to make the form wider */
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+form button {
+    background-color: #08011f; /* Styled the button */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+form button:hover {
+    background-color: #05010f; /* Darker shade on hover */
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1em;
+    font-family: 'Arial', sans-serif;
+    text-align: left;
+}
+
+table th, table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #08011f;
+    color: #fff;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
+.send-form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 600px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.send-form-label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.send-form-input,
+.send-form-textarea {
+    width: 100%;
+
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.message-box{
+    height: 400px;
+}
+
+.send-form-button {
+    background-color: #08011f;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.send-form-button:hover {
+    background-color: #05010f;
+}
+.success {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* Error message */
+.error {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* General styling for the alert divs */
+.alert {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
